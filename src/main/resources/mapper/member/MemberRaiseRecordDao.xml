@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lz.eb.api.dao.member.MemberRaiseRecordDao">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.admin.common.entity.MemberRaiseRecord">
+        <id column="id" property="id"/>
+        <result column="is_delete" property="isDelete"/>
+        <result column="gmt_create" property="gmtCreate"/>
+        <result column="gmt_modified" property="gmtModified"/>
+        <result column="user_phone_en" property="userPhoneEn"/>
+        <result column="act_account_id" property="actAccountId"/>
+        <result column="type" property="type"/>
+        <result column="amount" property="amount"/>
+        <result column="old_amount" property="oldAmount"/>
+        <result column="new_amount" property="newAmount"/>
+        <result column="unique_code" property="uniqueCode"/>
+    </resultMap>
+
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id AS id, is_delete AS isDelete, gmt_create AS gmtCreate, gmt_modified AS gmtModified, user_phone_en AS userPhoneEn, act_account_id AS actAccountId, type AS type, amount AS amount, old_amount AS oldAmount, new_amount AS newAmount, unique_code AS uniqueCode
+    </sql>
+
+
+
+
+    <select id="selectMemberRaiseRecordById" resultType="MemberRaiseRecord" >
+        select * from lt_member_raise_record  where id=#{id} and is_delete = 0 limit 1 
+    </select>
+
+
+    <insert id="insertMemberRaiseRecord" parameterType="MemberRaiseRecord" useGeneratedKeys="true" keyProperty="id" >
+        insert into lt_member_raise_record(
+            <if test="userPhoneEn != null">user_phone_en, </if>
+            <if test="actAccountId != null">act_account_id, </if>
+            <if test="type != null">type, </if>
+            <if test="amount != null">amount, </if>
+            <if test="oldAmount != null">old_amount, </if>
+            <if test="newAmount != null">new_amount, </if>
+            <if test="uniqueCode != null">unique_code, </if>
+            is_delete,
+            gmt_create,
+            gmt_modified
+        )values(
+            <if test="userPhoneEn != null">#{ userPhoneEn}, </if>
+            <if test="actAccountId != null">#{ actAccountId}, </if>
+            <if test="type != null">#{ type}, </if>
+            <if test="amount != null">#{ amount}, </if>
+            <if test="oldAmount != null">#{ oldAmount}, </if>
+            <if test="newAmount != null">#{ newAmount}, </if>
+            <if test="uniqueCode != null">#{ uniqueCode}, </if>
+            0,
+            now(),
+            now()
+        )
+    </insert>
+
+
+    <update id="updateMemberRaiseRecordById" parameterType="MemberRaiseRecord" >
+        update
+            lt_member_raise_record
+        <trim prefix="set" suffixOverrides=",">
+            <if test="isDelete != null">is_delete = #{isDelete},</if>
+            <if test="gmtCreate != null">gmt_create = #{gmtCreate},</if>
+            <if test="userPhoneEn != null">user_phone_en = #{userPhoneEn},</if>
+            <if test="actAccountId != null">act_account_id = #{actAccountId},</if>
+            <if test="type != null">type = #{type},</if>
+            <if test="amount != null">amount = #{amount},</if>
+            <if test="oldAmount != null">old_amount = #{oldAmount},</if>
+            <if test="newAmount != null">new_amount = #{newAmount},</if>
+            <if test="uniqueCode != null">unique_code = #{uniqueCode}</if>                
+        </trim>
+        ,gmt_modified = now()
+        where id = #{id}
+    </update>
+
+
+    <update id="updateCoverMemberRaiseRecordById" parameterType="com.lz.eb.api.entity.member.MemberRaiseRecord" >
+        update
+            lt_member_raise_record    
+        set     
+            is_delete = #{isDelete},
+            gmt_create = #{gmtCreate},
+            user_phone_en = #{userPhoneEn},
+            act_account_id = #{actAccountId},
+            type = #{type},
+            amount = #{amount},
+            old_amount = #{oldAmount},
+            new_amount = #{newAmount},
+            unique_code = #{uniqueCode}                
+        ,gmt_modified = now()
+        where id = #{id}
+    </update>
+
+
+    <update id="deleteMemberRaiseRecordById" parameterType="java.lang.Long">
+        update lt_member_raise_record set is_delete = 1 where id=#{id} limit 1  
+    </update>
+
+</mapper>
+

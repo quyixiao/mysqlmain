@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e6cede64-1351-4936-9776-8e8e0681feed" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="23uOn7SSMQ1qUpVTlMq145LuXCd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/lz/eb/api" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/lz/eb/api" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration name="MysqlMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.lz.eb.api.MysqlMain" />
+      <module name="mysqlmain" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.lz.eb.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MysqlMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>$USER_HOME$/.subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6cede64-1351-4936-9776-8e8e0681feed" name="Default Changelist" comment="" />
+      <created>1642580668823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1642580668823</updated>
+      <workItem from="1642580670554" duration="1524000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1878" height="552" key="GridCell.Tab.0.bottom" timestamp="1642581886988">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.0.bottom/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886988" />
+    <state width="1878" height="552" key="GridCell.Tab.0.center" timestamp="1642581886987">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.0.center/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886987" />
+    <state width="1878" height="552" key="GridCell.Tab.0.left" timestamp="1642581886987">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.0.left/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886987" />
+    <state width="1878" height="552" key="GridCell.Tab.0.right" timestamp="1642581886988">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.0.right/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886988" />
+    <state width="1878" height="552" key="GridCell.Tab.1.bottom" timestamp="1642581886996">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.1.bottom/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886996" />
+    <state width="1878" height="552" key="GridCell.Tab.1.center" timestamp="1642581886994">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.1.center/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886994" />
+    <state width="1878" height="552" key="GridCell.Tab.1.left" timestamp="1642581886994">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.1.left/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886994" />
+    <state width="1878" height="552" key="GridCell.Tab.1.right" timestamp="1642581886995">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.1.right/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886995" />
+    <state width="1878" height="552" key="GridCell.Tab.2.bottom" timestamp="1642581886990">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.2.bottom/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886990" />
+    <state width="1878" height="552" key="GridCell.Tab.2.center" timestamp="1642581886989">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.2.center/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886989" />
+    <state width="1878" height="552" key="GridCell.Tab.2.left" timestamp="1642581886989">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.2.left/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886989" />
+    <state width="1878" height="552" key="GridCell.Tab.2.right" timestamp="1642581886990">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.2.right/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581886990" />
+    <state width="1878" height="552" key="GridCell.Tab.3.bottom" timestamp="1642581887093">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.3.bottom/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581887093" />
+    <state width="1878" height="552" key="GridCell.Tab.3.center" timestamp="1642581887090">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.3.center/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581887090" />
+    <state width="1878" height="552" key="GridCell.Tab.3.left" timestamp="1642581887089">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.3.left/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581887089" />
+    <state width="1878" height="552" key="GridCell.Tab.3.right" timestamp="1642581887091">
+      <screen x="0" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="552" key="GridCell.Tab.3.right/46.0.1394.900/-1920.-1080.1920.1080/0.-1080.1920.1080@0.-1080.1920.1080" timestamp="1642581887091" />
+  </component>
+</project>
